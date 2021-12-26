@@ -11178,6 +11178,83 @@ h5,
   z-index: -1;
 }
 
+#project-section .circle1 {
+  width: 50vw;
+  height: calc(50vw * 1);
+  position: absolute;
+  top: 10%;
+  left: -25%;
+  background-image: linear-gradient(34deg, #f25c05 0%, #f2c12e 100%);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
+  border-radius: 100%;
+  filter: blur(25px);
+  opacity: 0.75;
+}
+
+#project-section .circle2 {
+  width: 20%;
+  height: calc(20vw * 1);
+  position: absolute;
+  top: 70%;
+  left: 10%;
+  background-image: linear-gradient(34deg, #cc6cd9 0%, #611463 100%);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
+  border-radius: 100%;
+  filter: blur(10px);
+  opacity: 0.75;
+}
+
+#project-section .circle3 {
+  width: 5%;
+  height: calc(5vw * 1);
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  background-image: linear-gradient(34deg, #d91604 0%, #ec4005 100%);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
+  border-radius: 100%;
+  filter: blur(5px);
+  opacity: 0.75;
+  z-index: -1;
+}
+
+#project-section .circle4 {
+  width: 30%;
+  height: calc(30vw * 1);
+  position: absolute;
+  top: 20%;
+  right: -5%;
+  background-image: linear-gradient(34deg, #cc6cd9 0%, #611463 100%);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
+  border-radius: 100%;
+  filter: blur(10px);
+  opacity: 0.75;
+}
+
+#project-section .circle5 {
+  width: 25%;
+  height: calc(25vw * 1);
+  position: absolute;
+  top: 55%;
+  right: 20%;
+  background-image: linear-gradient(34deg, #d91604 0%, #ec4005 100%);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
+  border-radius: 100%;
+  filter: blur(5px);
+  opacity: 0.75;
+  z-index: -1;
+}
+
 .hero-wrap .text {
   width: 100%;
 }
@@ -12555,12 +12632,10 @@ textarea.form-control {
   margin-bottom: 7px;
   margin-right: 4px;
   border-radius: 4px;
-  color: #fff;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #f25c05 !important;
+  border: 1px solid #f25c05;
   font-size: 11px;
-}
-.tagcloud a:hover {
-  border: 1px solid #000;
+  cursor: default;
 }
 
 .comment-form-wrap {
@@ -12806,4 +12881,267 @@ textarea.form-control {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px;
   }
+}
+
+/* Card Projects */
+
+.project-section .course {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  max-width: 100%;
+  margin: 20px;
+  overflow: hidden;
+  width: 700px;
+}
+
+.project-section .course h6 {
+  opacity: 0.6;
+  margin: 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.project-section .course h2 {
+  letter-spacing: 1px;
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.project-section .course-preview {
+  background-image: linear-gradient(34deg, #f25c05 0%, #f2c12e 100%);
+  color: #fff;
+  padding: 30px;
+  max-width: 250px;
+}
+
+.project-section .course-preview a {
+  color: #fff;
+  display: inline-block;
+  font-size: 12px;
+  opacity: 0.6;
+  margin-top: 30px;
+  text-decoration: none;
+}
+
+.project-section .course-info {
+  padding: 30px;
+  position: relative;
+  width: 100%;
+}
+
+.project-section .progress-container {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  text-align: right;
+  width: 150px;
+}
+
+.project-section .progress {
+  background-color: #ddd;
+  border-radius: 3px;
+  height: 5px;
+  width: 100%;
+}
+
+.project-section .progress::after {
+  border-radius: 3px;
+  background-color: #2a265f;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 5px;
+  width: 66%;
+}
+
+.project-section .progress-text {
+  font-size: 10px;
+  opacity: 0.6;
+  letter-spacing: 1px;
+}
+
+.project-section .btn {
+  background-image: linear-gradient(34deg, #f25c05 0%, #f2c12e 100%);
+  border: 0;
+  border-radius: 50px;
+  box-shadow: 0 7px 7px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 12px;
+  padding: 8px 18px;
+  position: absolute;
+  bottom: 10px;
+  right: 30px;
+  letter-spacing: 1px;
+}
+
+.project-section .btn:hover {
+  background-image: linear-gradient(34deg, #cc6cd9 0%, #611463 100%);
+}
+
+.project-section .vertical {
+  writing-mode: vertical-rl;
+}
+
+.project-section .btn:hover.violet {
+  background-image: linear-gradient(34deg, #f25c05 0%, #f2c12e 100%);
+}
+
+.project-section .violet {
+  background-image: linear-gradient(34deg, #cc6cd9 0%, #611463 100%);
+}
+
+@media (min-width: 810px) {
+  .project-section .up {
+    position: relative;
+    top: -200px;
+  }
+  .project-section .up2 {
+    position: relative;
+    top: -280px;
+  }
+
+  .project-section .down {
+    position: relative;
+    top: 80px;
+  }
+
+  .project-section .down2 {
+    position: relative;
+    top: 130px;
+  }
+}
+
+/* SINGLE PAGES */
+
+.main-project-image {
+  width: 80vw;
+  height: fit-content;
+}
+
+.project-main-title {
+  position: relative;
+  top: 60%;
+  z-index: 10;
+}
+
+.main-title {
+  margin-bottom: 0px !important;
+}
+
+.slider-text .breadcrumbs span a {
+  color: #f25c05;
+}
+
+.slider-text .breadcrumbs span a:hover {
+  color: #cc6cd9 !important;
+}
+
+.slider-text .breadcrumbs span i:hover {
+  color: #cc6cd9 !important;
+}
+
+.sidebar-box {
+  margin-bottom: 0px;
+}
+
+@font-face {
+  font-family: "Material Icons";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local("Material Icons"), local("MaterialIcons-Regular"),
+    url(https://example.com/MaterialIcons-Regular.woff2) format("woff2"),
+    url(https://example.com/MaterialIcons-Regular.woff) format("woff"),
+    url(https://example.com/MaterialIcons-Regular.ttf) format("truetype");
+}
+
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px; /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  color: #fff;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: "liga";
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  background-image: linear-gradient(34deg, #f25c05 0%, #f2c12e 100%);
+  border-radius: 50%;
+  color: #fff;
+  font-size: 28px;
+}
+
+.icon a {
+  color: #fff !important;
+}
+
+.link-container {
+  display: inline-flex;
+  margin: 5px;
+}
+
+.external-file-link {
+  margin: 5px;
+  color: #111;
+  font-size: 16px;
+}
+
+.video_project {
+  width: 100%;
+  height: auto;
+  align-items: center;
+}
+
+.video_project iframe {
+  width: 80%;
+  height: auto;
+  aspect-ratio: 16/9;
+}
+
+.my-wrap {
+  width: 100%;
+  height: 100%;
+  position: inherit;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.my-wrap .text {
+  width: 100%;
+}
+
+.my-wrap .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+  opacity: 1;
+  width: 100%;
+  /*background-color: #08aeea;
+  background-image: linear-gradient(34deg, #f2c12e 0%, #f25c05 100%);*/
 }
