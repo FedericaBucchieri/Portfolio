@@ -13018,7 +13018,12 @@ textarea.form-control {
 /* SINGLE PAGES */
 
 .main-project-image {
-  width: 80vw;
+  width: 70vw;
+  height: fit-content;
+}
+
+.main-project-image .smaller {
+  width: 60vw;
   height: fit-content;
 }
 
