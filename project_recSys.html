@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>FB - VideoH</title>
+    <title>FB - RecSys Challenge 2020</title>
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -77,15 +77,15 @@
             style="z-index: 10"
           >
             <div class="text text-center project-main-title">
-              <h1 class="mb-3 bread main-title">Santorini</h1>
+              <h1 class="mb-3 bread main-title">RecSys Challenge 2020</h1>
               <p class="breadcrumbs">
                 <span class="mr-2"><a href="blog.html">Projects > </a></span>
-                <span>Santorini </span>
+                <span>RecSys Challenge 2020 </span>
               </p>
             </div>
           </div>
           <div class="col-lg-15 ftco-animate d-flex align-items-center video_project justify-content-center">
-            <img class="main-project-image smaller" src="images/Videoh.png">  
+            <img class="main-project-image smaller" src="images/RecSysMain.png">
           </div>
         </div>
       </div>
@@ -96,56 +96,78 @@
         <div class="row">
           <div class="col-lg-8 ftco-animate">
             <h2 class="mb-3">
-              VIDEOH is a video player application with educational purposes
+              Recommender System 2020 Challenge - Polimi
             </h2>
             <p>
-              The aim is to develop a platform application where teachers can upload video lessons and students can watch them in an interactive way. 
-              Mainly, our application provides a video player for students and some interactive elements that allow them to specify if an argument was clear or not, to ask a question directly to the professor and match it to a specific part of the video lesson. 
-              Going more in detail, VIDEOH allows you to enter the application both as a professor or as a student. Professors have a personal account and need to log in with username and password. Students instead can enter the application with a nickname in an anonymous way to incentivize participation, breaking the barrier of shyness. 
-              So, after logging in, the application presents two personalized experience for the different group of users              
+              The Recommender System Challenge is a competition reserved to the students of the Recommender Systems course in Politecnico di Milano. 
+              The goal of the competition is to provide recommendations in the domain of book recommendations.
+              The datasets provided by the competition owners, contains both interactions between users and books, and tokens (words) extracted from the book text. 
+              The main goal of the competition is to discover which item (book) a user will interact with.  
+            </p>
 
-
-            <h2 class="mb-3 mt-5">The professor's side</h2>
             <p>
-              This user group’s homepage presents the list of all the video lessons uploaded by the specific professor. He/she has the chance to upload a new video inserting all the relevant details (title, description, ect..), to modify a previously uploaded video details or to see all the statistics concerning a specific video. Statistics comprise the all set of students’ interaction, showing them accordingly with the video timeline. In this way the professor can clearly see which part of the lesson was clear or not and eventually takes note of all the questions posed by students in a specific moment. Each time a video is uploaded, the application generates a video code that the professor can share with its students. </p>
-            <h2 class="mb-3 mt-5">The student's side</h2>
+              <img src="images/RecSysLeaderBoard.png" alt="" class="img-fluid" />
+            </p>
+            <center><h2 class="mb-3 mt-5"> Final result: 4th place ! </h2></center>
             <p>
-              This user group’s homepage presents the possibility to insert a video-code and go directly to the corresponding video lesson. Each lesson is presented with a video player and some interactive buttons representing three possible types of interactions: positive, negative and questions. The first two buttons, if clicked, leave a tag in the video timeline providing visual feedback to the user. Each interaction is then stored to be shown from the professor's side. If the student wants to make a question with the available button, he/she has the chance to insert the desider question. Students have also the possibility to modify, delete or move in the timeline their interactions at any time with a drag & drop interaction. At the end of each lesson, users can control their questions, modify them or delete them completely in the review mode.</p>
-
+              <img src="images/RecSysPlace.png" alt="" class="img-fluid" />
+            </p>
+            <p> It wasn't an easy journey and at some point I was running hyperparameter tuning in three different PCs at the same time.
+              Eventually, one of those stayed up and running for a week in a row just to tune one set of parameters. 
+              I tried several different algorithms, each of those tuned millions of times with parameters variation, and also different approaches like using hybrids algorithms combining simple ones with different mathematical approaches. 
+              You can see some of those techniques in the following timeline of my 3-moth challenge experience.
+            </p>
+            <p>
+              <img src="images/RecSysTimeline.png" alt="" class="img-fluid" />
+            </p>
+            <p> The final score was calculated considering the MAP (Mean Average Precision) and it was evaluated both in a public and a private test-set to avoid partecipant to overfitt their models. 
+              Surprisely, my model was performing better in the private leaderboard rather than in the public one. My final algoritms obtained a MAP = 0.107946, over 10 objects.
+              You can see the specs of the algorithm here:
+            </p>
+            <p>
+              <img src="images/RecSysFinalAlgorithm.png" alt="" class="img-fluid" />
+            </p>
             </div>
+
+
           <!-- .col-md-8 -->
           <div class="col-lg-4 sidebar ftco-animate">
             <div class="sidebar-box ftco-animate">
               <h3 class="heading-sidebar">Related Course</h3>
-              <h5>Advanced Programming of Interactive Systems</h5>
+              <h5>Recommender System</h5>
               <p>
-                This class focuses on advanced user interface programming techniques. Students will gain an understanding of the architecture and algorithmic underpinnings of modern UI toolkits. They will gain a rich operational knowledge of how to create user interfaces, including how to extend standard widgets and move beyond WIMP to off-the-desktop contexts. At the end of the course, students will be able to define new widgets and create new interactions.</p> </div>
-
+                The technology behind recommender systems has evolved over the past years into a rich collection of tools that enable practitioners and researchers to develop effective recommenders. We will study the most important of those algorithms, including how they work, how to use them, how to evaluate them, and their strengths and weaknesses in practice. The algorithms we will study include content-based filtering, collaborative filtering, dimensionality reduction, hybrid techniques, cros-domain and context aware techniques.
+              </p>
             <div class="sidebar-box ftco-animate">
               <h3 class="heading-sidebar">Project Link</h3>
               <div class="link-container align-items-center justify-content-center">
                 <div class="icon d-flex align-items-center justify-content-center"><i style="font-size:28px" class="fa">&#xf09b;</i></div>
-                <a href="https://github.com/FedericaBucchieri/Amato_Bucchieri_Videoh" class="external-file-link">GitHub Repository</a>
+                <a href="https://github.com/FedericaBucchieri/RecSysFinalPresentation" class="external-file-link">GitHub Repository</a>
               </div>
+              <div class="link-container align-items-center justify-content-center">
+                <div class="icon d-flex align-items-center justify-content-center"><span class="material-icons">dashboard</span></div>
+                <a href="https://www.kaggle.com/c/recommender-system-2020-challenge-polimi/leaderboard" class="external-file-link">Kaggle Link</a>
+              </div>
+
             </div>
 
             <div class="sidebar-box ftco-animate">
               <h3 class="heading-sidebar">Project Files</h3>
               <div class="link-container align-items-center justify-content-center">
-                <div class="icon d-flex align-items-center justify-content-center"><span class="material-icons"><a href="../Portfolio/files/Amato_Bucchieri_Video_Final.pdf" download="Videoh Specifications">insert_drive_file</a></span></div>
-                <p class="external-file-link">Project Specifications </a>
+                <div class="icon d-flex align-items-center justify-content-center"><span class="material-icons"><a href="../Portfolio/files/Recommender System.pdf" download="RecSys Challenge Final Presentation">insert_drive_file</a></span></div>
+                <p class="external-file-link">Final Presentation </a>
               </div>
             </div>
 
             <div class="sidebar-box ftco-animate">
               <h3 class="heading-sidebar">Tag Cloud</h3>
               <div class="tagcloud">
-                <a class="tag-cloud-link">Java</a>
-                <a  class="tag-cloud-link">Java Swings</a>
-                <a class="tag-cloud-link">UI</a>
-                <a  class="tag-cloud-link">Interactions Design</a>
-                <a  class="tag-cloud-link">Video Sharing</a>
-                <a  class="tag-cloud-link">VLC</a>
+                <a class="tag-cloud-link">Python</a>
+                <a  class="tag-cloud-link">RecSys</a>
+                <a class="tag-cloud-link">User Based</a>
+                <a  class="tag-cloud-link">Kaggle</a>
+                <a  class="tag-cloud-link">Challenge</a>
+                <a  class="tag-cloud-link">hyperparameter tuning</a>
               </div>
             </div>
 
