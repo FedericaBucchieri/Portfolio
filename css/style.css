@@ -11003,7 +11003,7 @@ h5,
   background-repeat: no-repeat;
 }
 #main-title .overlay {
-  position: absolute;
+  /*position: absolute;*/
   top: 0;
   left: 0;
   right: 0;
@@ -11216,22 +11216,8 @@ h5,
   z-index: -1;
 }
 
-#project-intro-section .overlay {
-  position: absolute;
-  top: 510vh;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  content: "";
-  opacity: 1;
-  width: 100%;
-  height: -webkit-fill-available;
-  /*background-color: #08aeea;
-  background-image: linear-gradient(34deg, #f2c12e 0%, #f25c05 100%);*/
-}
-
 #project-intro-section .circle1 {
-  width: 50vw;
+  width: 45vw;
   height: calc(50vw * 1);
   position: absolute;
   top: 10%;
@@ -11245,12 +11231,29 @@ h5,
   opacity: 0.75;
 }
 
+#project-intro-section .overlay {
+  width: 0px;
+}
+
+#project-intro-section .d-flex {
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+#project-intro-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-y: hidden;
+  height: 100%;
+}
+
 #project-intro-section .circle2 {
   width: 20%;
   height: calc(20vw * 1);
-  position: relative;
-  top: 585px;
-  left: 10%;
+  position: absolute;
+  top: 60%;
+  left: 20%;
   background-image: linear-gradient(34deg, #cc6cd9 0%, #611463 100%);
   box-shadow: 0 8px 32px 0 rgb(31 38 135 / 37%);
   backdrop-filter: blur(25px);
@@ -11294,9 +11297,9 @@ h5,
 #project-intro-section .circle5 {
   width: 25%;
   height: calc(25vw * 1);
-  position: relative;
-  top: 200px;
-  left: 100px;
+  position: absolute;
+  top: 50%;
+  right: 10%;
   float: right;
   background-image: linear-gradient(34deg, #d91604 0%, #ec4005 100%);
   box-shadow: 0 8px 32px 0 rgb(31 38 135 / 37%);
