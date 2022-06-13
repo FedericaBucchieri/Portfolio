@@ -13309,6 +13309,11 @@ footer {
   margin: 5px;
 }
 
+.project-image {
+  width: 87%;
+  margin: 5px;
+}
+
 .fps-image-right {
   float: right;
 }
