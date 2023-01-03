@@ -421,6 +421,7 @@ h4,
 h5,
 .h5 {
   font-size: 1.25rem;
+  font-weight: 500 !important;
 }
 
 h6,
@@ -11863,12 +11864,14 @@ li {
 
 .progress-wrap {
   width: 100%;
-  margin-bottom: 30px;
 }
+
 .progress-wrap h3 {
   font-size: 16px;
-  margin-bottom: 10px;
-  font-weight: 500;
+}
+
+.top-margin {
+  margin-top: 30px;
 }
 
 .progress {
