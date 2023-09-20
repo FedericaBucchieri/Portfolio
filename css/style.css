@@ -11687,7 +11687,7 @@ h5,
 
 .shipped-games 
 {
-  width: 100%;
+  width: fit-content;
   height: fit-content;
   border-radius: 50%;
 }
