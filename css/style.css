@@ -11685,6 +11685,18 @@ h5,
   color: #f25c05;
 }
 
+.shipped-games 
+{
+  width: 100%;
+  height: fit-content;
+  border-radius: 50%;
+}
+
+.shipped-games-container 
+{
+  width: 20%;
+}
+
 #navi {
   top: 180px;
   position: -webkit-sticky;
